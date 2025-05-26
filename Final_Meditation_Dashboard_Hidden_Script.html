@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Enhanced Adaptive Meditation Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #fafafa; padding: 20px; }
+    h1, h2 { text-align: center; }
+    iframe { width: 100%; height: 600px; border: 1px solid #aaa; margin-bottom: 40px; }
+    .progress-container { width: 100%; background: #eee; border-radius: 10px; margin: 20px 0; }
+    .progress-bar { height: 25px; width: 0%; background: #76c7c0; border-radius: 10px; text-align: center; color: white; line-height: 25px; font-weight: bold; transition: width 0.3s ease; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+    th { background: #e0e0e0; }
+    input[type="checkbox"] { transform: scale(1.2); }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>🌄 Stream Entry Milestone Tracker</h2>
+    <table>
+      <tr><th>Milestone</th><th>Estimated Timeframe</th><th>Completed?</th></tr>
+      <tr>
+        <td>1️⃣ First Milestone – Establishing Practice (TMI Stages 1–3)</td>
+        <td>Months 0–6</td>
+        <td><input type="checkbox" id="milestone_1"></td>
+      </tr>
+      <tr>
+        <td>2️⃣ Second Milestone – Continuous Attention (Stage 6)</td>
+        <td>Months 6–18</td>
+        <td><input type="checkbox" id="milestone_2"></td>
+      </tr>
+      <tr>
+        <td>3️⃣ Third Milestone – Mental Pliancy (Stage 9)</td>
+        <td>Months 18–36</td>
+        <td><input type="checkbox" id="milestone_3"></td>
+      </tr>
+      <tr>
+        <td>4️⃣ Fourth Milestone – Full Unification (Stage 10)</td>
+        <td>Years 3–5</td>
+        <td><input type="checkbox" id="milestone_4"></td>
+      </tr>
+      <tr>
+        <td>🌈 Stream Entry – Insight Breakthrough</td>
+        <td>Years 4–6</td>
+        <td><input type="checkbox" id="milestone_5"></td>
+      </tr>
+    </table>
+  </section>
+  <h1>Inkku's Enhanced Adaptive Meditation Dashboard</h1>
+
+  <section>
+    <h2>🌟 Weekly Milestone Completion Progress</h2>
+    <div class="progress-container">
+      <div class="progress-bar" id="progressBar">0%</div>
+    </div>
+
+    <table>
+      <tr>
+        <th>Week</th>
+        <th>✔ 21x Sit</th>
+        <th>✔ Low Resistance</th>
+        <th>✔ Emotional Readiness</th>
+        <th>✔ Attention Stable</th>
+      </tr>
+<tr><td>Week of May 26, 2025</td><td><input type="checkbox" class="milestone" id="w1_m1"></td><td><input type="checkbox" class="milestone" id="w1_m2"></td><td><input type="checkbox" class="milestone" id="w1_m3"></td><td><input type="checkbox" class="milestone" id="w1_m4"></td></tr>
+<tr><td>Week of Jun 02, 2025</td><td><input type="checkbox" class="milestone" id="w2_m1"></td><td><input type="checkbox" class="milestone" id="w2_m2"></td><td><input type="checkbox" class="milestone" id="w2_m3"></td><td><input type="checkbox" class="milestone" id="w2_m4"></td></tr>
+<tr><td>Week of Jun 09, 2025</td><td><input type="checkbox" class="milestone" id="w3_m1"></td><td><input type="checkbox" class="milestone" id="w3_m2"></td><td><input type="checkbox" class="milestone" id="w3_m3"></td><td><input type="checkbox" class="milestone" id="w3_m4"></td></tr>
+<tr><td>Week of Jun 16, 2025</td><td><input type="checkbox" class="milestone" id="w4_m1"></td><td><input type="checkbox" class="milestone" id="w4_m2"></td><td><input type="checkbox" class="milestone" id="w4_m3"></td><td><input type="checkbox" class="milestone" id="w4_m4"></td></tr>
+<tr><td>Week of Jun 23, 2025</td><td><input type="checkbox" class="milestone" id="w5_m1"></td><td><input type="checkbox" class="milestone" id="w5_m2"></td><td><input type="checkbox" class="milestone" id="w5_m3"></td><td><input type="checkbox" class="milestone" id="w5_m4"></td></tr>
+<tr><td>Week of Jun 30, 2025</td><td><input type="checkbox" class="milestone" id="w6_m1"></td><td><input type="checkbox" class="milestone" id="w6_m2"></td><td><input type="checkbox" class="milestone" id="w6_m3"></td><td><input type="checkbox" class="milestone" id="w6_m4"></td></tr>
+<tr><td>Week of Jul 07, 2025</td><td><input type="checkbox" class="milestone" id="w7_m1"></td><td><input type="checkbox" class="milestone" id="w7_m2"></td><td><input type="checkbox" class="milestone" id="w7_m3"></td><td><input type="checkbox" class="milestone" id="w7_m4"></td></tr>
+<tr><td>Week of Jul 14, 2025</td><td><input type="checkbox" class="milestone" id="w8_m1"></td><td><input type="checkbox" class="milestone" id="w8_m2"></td><td><input type="checkbox" class="milestone" id="w8_m3"></td><td><input type="checkbox" class="milestone" id="w8_m4"></td></tr>
+<tr><td>Week of Jul 21, 2025</td><td><input type="checkbox" class="milestone" id="w9_m1"></td><td><input type="checkbox" class="milestone" id="w9_m2"></td><td><input type="checkbox" class="milestone" id="w9_m3"></td><td><input type="checkbox" class="milestone" id="w9_m4"></td></tr>
+<tr><td>Week of Jul 28, 2025</td><td><input type="checkbox" class="milestone" id="w10_m1"></td><td><input type="checkbox" class="milestone" id="w10_m2"></td><td><input type="checkbox" class="milestone" id="w10_m3"></td><td><input type="checkbox" class="milestone" id="w10_m4"></td></tr>
+<tr><td>Week of Aug 04, 2025</td><td><input type="checkbox" class="milestone" id="w11_m1"></td><td><input type="checkbox" class="milestone" id="w11_m2"></td><td><input type="checkbox" class="milestone" id="w11_m3"></td><td><input type="checkbox" class="milestone" id="w11_m4"></td></tr>
+<tr><td>Week of Aug 11, 2025</td><td><input type="checkbox" class="milestone" id="w12_m1"></td><td><input type="checkbox" class="milestone" id="w12_m2"></td><td><input type="checkbox" class="milestone" id="w12_m3"></td><td><input type="checkbox" class="milestone" id="w12_m4"></td></tr>
+<tr><td>Week of Aug 18, 2025</td><td><input type="checkbox" class="milestone" id="w13_m1"></td><td><input type="checkbox" class="milestone" id="w13_m2"></td><td><input type="checkbox" class="milestone" id="w13_m3"></td><td><input type="checkbox" class="milestone" id="w13_m4"></td></tr>
+<tr><td>Week of Aug 25, 2025</td><td><input type="checkbox" class="milestone" id="w14_m1"></td><td><input type="checkbox" class="milestone" id="w14_m2"></td><td><input type="checkbox" class="milestone" id="w14_m3"></td><td><input type="checkbox" class="milestone" id="w14_m4"></td></tr>
+<tr><td>Week of Sep 01, 2025</td><td><input type="checkbox" class="milestone" id="w15_m1"></td><td><input type="checkbox" class="milestone" id="w15_m2"></td><td><input type="checkbox" class="milestone" id="w15_m3"></td><td><input type="checkbox" class="milestone" id="w15_m4"></td></tr>
+<tr><td>Week of Sep 08, 2025</td><td><input type="checkbox" class="milestone" id="w16_m1"></td><td><input type="checkbox" class="milestone" id="w16_m2"></td><td><input type="checkbox" class="milestone" id="w16_m3"></td><td><input type="checkbox" class="milestone" id="w16_m4"></td></tr>
+<tr><td>Week of Sep 15, 2025</td><td><input type="checkbox" class="milestone" id="w17_m1"></td><td><input type="checkbox" class="milestone" id="w17_m2"></td><td><input type="checkbox" class="milestone" id="w17_m3"></td><td><input type="checkbox" class="milestone" id="w17_m4"></td></tr>
+<tr><td>Week of Sep 22, 2025</td><td><input type="checkbox" class="milestone" id="w18_m1"></td><td><input type="checkbox" class="milestone" id="w18_m2"></td><td><input type="checkbox" class="milestone" id="w18_m3"></td><td><input type="checkbox" class="milestone" id="w18_m4"></td></tr>
+<tr><td>Week of Sep 29, 2025</td><td><input type="checkbox" class="milestone" id="w19_m1"></td><td><input type="checkbox" class="milestone" id="w19_m2"></td><td><input type="checkbox" class="milestone" id="w19_m3"></td><td><input type="checkbox" class="milestone" id="w19_m4"></td></tr>
+<tr><td>Week of Oct 06, 2025</td><td><input type="checkbox" class="milestone" id="w20_m1"></td><td><input type="checkbox" class="milestone" id="w20_m2"></td><td><input type="checkbox" class="milestone" id="w20_m3"></td><td><input type="checkbox" class="milestone" id="w20_m4"></td></tr>
+<tr><td>Week of Oct 13, 2025</td><td><input type="checkbox" class="milestone" id="w21_m1"></td><td><input type="checkbox" class="milestone" id="w21_m2"></td><td><input type="checkbox" class="milestone" id="w21_m3"></td><td><input type="checkbox" class="milestone" id="w21_m4"></td></tr>
+<tr><td>Week of Oct 20, 2025</td><td><input type="checkbox" class="milestone" id="w22_m1"></td><td><input type="checkbox" class="milestone" id="w22_m2"></td><td><input type="checkbox" class="milestone" id="w22_m3"></td><td><input type="checkbox" class="milestone" id="w22_m4"></td></tr>
+<tr><td>Week of Oct 27, 2025</td><td><input type="checkbox" class="milestone" id="w23_m1"></td><td><input type="checkbox" class="milestone" id="w23_m2"></td><td><input type="checkbox" class="milestone" id="w23_m3"></td><td><input type="checkbox" class="milestone" id="w23_m4"></td></tr>
+<tr><td>Week of Nov 03, 2025</td><td><input type="checkbox" class="milestone" id="w24_m1"></td><td><input type="checkbox" class="milestone" id="w24_m2"></td><td><input type="checkbox" class="milestone" id="w24_m3"></td><td><input type="checkbox" class="milestone" id="w24_m4"></td></tr>
+<tr><td>Week of Nov 10, 2025</td><td><input type="checkbox" class="milestone" id="w25_m1"></td><td><input type="checkbox" class="milestone" id="w25_m2"></td><td><input type="checkbox" class="milestone" id="w25_m3"></td><td><input type="checkbox" class="milestone" id="w25_m4"></td></tr>
+<tr><td>Week of Nov 17, 2025</td><td><input type="checkbox" class="milestone" id="w26_m1"></td><td><input type="checkbox" class="milestone" id="w26_m2"></td><td><input type="checkbox" class="milestone" id="w26_m3"></td><td><input type="checkbox" class="milestone" id="w26_m4"></td></tr>
+<tr><td>Week of Nov 24, 2025</td><td><input type="checkbox" class="milestone" id="w27_m1"></td><td><input type="checkbox" class="milestone" id="w27_m2"></td><td><input type="checkbox" class="milestone" id="w27_m3"></td><td><input type="checkbox" class="milestone" id="w27_m4"></td></tr>
+<tr><td>Week of Dec 01, 2025</td><td><input type="checkbox" class="milestone" id="w28_m1"></td><td><input type="checkbox" class="milestone" id="w28_m2"></td><td><input type="checkbox" class="milestone" id="w28_m3"></td><td><input type="checkbox" class="milestone" id="w28_m4"></td></tr>
+<tr><td>Week of Dec 08, 2025</td><td><input type="checkbox" class="milestone" id="w29_m1"></td><td><input type="checkbox" class="milestone" id="w29_m2"></td><td><input type="checkbox" class="milestone" id="w29_m3"></td><td><input type="checkbox" class="milestone" id="w29_m4"></td></tr>
+<tr><td>Week of Dec 15, 2025</td><td><input type="checkbox" class="milestone" id="w30_m1"></td><td><input type="checkbox" class="milestone" id="w30_m2"></td><td><input type="checkbox" class="milestone" id="w30_m3"></td><td><input type="checkbox" class="milestone" id="w30_m4"></td></tr>
+<tr><td>Week of Dec 22, 2025</td><td><input type="checkbox" class="milestone" id="w31_m1"></td><td><input type="checkbox" class="milestone" id="w31_m2"></td><td><input type="checkbox" class="milestone" id="w31_m3"></td><td><input type="checkbox" class="milestone" id="w31_m4"></td></tr>
+<tr><td>Week of Dec 29, 2025</td><td><input type="checkbox" class="milestone" id="w32_m1"></td><td><input type="checkbox" class="milestone" id="w32_m2"></td><td><input type="checkbox" class="milestone" id="w32_m3"></td><td><input type="checkbox" class="milestone" id="w32_m4"></td></tr>
+<tr><td>Week of Jan 05, 2026</td><td><input type="checkbox" class="milestone" id="w33_m1"></td><td><input type="checkbox" class="milestone" id="w33_m2"></td><td><input type="checkbox" class="milestone" id="w33_m3"></td><td><input type="checkbox" class="milestone" id="w33_m4"></td></tr>
+<tr><td>Week of Jan 12, 2026</td><td><input type="checkbox" class="milestone" id="w34_m1"></td><td><input type="checkbox" class="milestone" id="w34_m2"></td><td><input type="checkbox" class="milestone" id="w34_m3"></td><td><input type="checkbox" class="milestone" id="w34_m4"></td></tr>
+<tr><td>Week of Jan 19, 2026</td><td><input type="checkbox" class="milestone" id="w35_m1"></td><td><input type="checkbox" class="milestone" id="w35_m2"></td><td><input type="checkbox" class="milestone" id="w35_m3"></td><td><input type="checkbox" class="milestone" id="w35_m4"></td></tr>
+<tr><td>Week of Jan 26, 2026</td><td><input type="checkbox" class="milestone" id="w36_m1"></td><td><input type="checkbox" class="milestone" id="w36_m2"></td><td><input type="checkbox" class="milestone" id="w36_m3"></td><td><input type="checkbox" class="milestone" id="w36_m4"></td></tr>
+<tr><td>Week of Feb 02, 2026</td><td><input type="checkbox" class="milestone" id="w37_m1"></td><td><input type="checkbox" class="milestone" id="w37_m2"></td><td><input type="checkbox" class="milestone" id="w37_m3"></td><td><input type="checkbox" class="milestone" id="w37_m4"></td></tr>
+<tr><td>Week of Feb 09, 2026</td><td><input type="checkbox" class="milestone" id="w38_m1"></td><td><input type="checkbox" class="milestone" id="w38_m2"></td><td><input type="checkbox" class="milestone" id="w38_m3"></td><td><input type="checkbox" class="milestone" id="w38_m4"></td></tr>
+<tr><td>Week of Feb 16, 2026</td><td><input type="checkbox" class="milestone" id="w39_m1"></td><td><input type="checkbox" class="milestone" id="w39_m2"></td><td><input type="checkbox" class="milestone" id="w39_m3"></td><td><input type="checkbox" class="milestone" id="w39_m4"></td></tr>
+<tr><td>Week of Feb 23, 2026</td><td><input type="checkbox" class="milestone" id="w40_m1"></td><td><input type="checkbox" class="milestone" id="w40_m2"></td><td><input type="checkbox" class="milestone" id="w40_m3"></td><td><input type="checkbox" class="milestone" id="w40_m4"></td></tr>
+<tr><td>Week of Mar 02, 2026</td><td><input type="checkbox" class="milestone" id="w41_m1"></td><td><input type="checkbox" class="milestone" id="w41_m2"></td><td><input type="checkbox" class="milestone" id="w41_m3"></td><td><input type="checkbox" class="milestone" id="w41_m4"></td></tr>
+<tr><td>Week of Mar 09, 2026</td><td><input type="checkbox" class="milestone" id="w42_m1"></td><td><input type="checkbox" class="milestone" id="w42_m2"></td><td><input type="checkbox" class="milestone" id="w42_m3"></td><td><input type="checkbox" class="milestone" id="w42_m4"></td></tr>
+<tr><td>Week of Mar 16, 2026</td><td><input type="checkbox" class="milestone" id="w43_m1"></td><td><input type="checkbox" class="milestone" id="w43_m2"></td><td><input type="checkbox" class="milestone" id="w43_m3"></td><td><input type="checkbox" class="milestone" id="w43_m4"></td></tr>
+<tr><td>Week of Mar 23, 2026</td><td><input type="checkbox" class="milestone" id="w44_m1"></td><td><input type="checkbox" class="milestone" id="w44_m2"></td><td><input type="checkbox" class="milestone" id="w44_m3"></td><td><input type="checkbox" class="milestone" id="w44_m4"></td></tr>
+<tr><td>Week of Mar 30, 2026</td><td><input type="checkbox" class="milestone" id="w45_m1"></td><td><input type="checkbox" class="milestone" id="w45_m2"></td><td><input type="checkbox" class="milestone" id="w45_m3"></td><td><input type="checkbox" class="milestone" id="w45_m4"></td></tr>
+<tr><td>Week of Apr 06, 2026</td><td><input type="checkbox" class="milestone" id="w46_m1"></td><td><input type="checkbox" class="milestone" id="w46_m2"></td><td><input type="checkbox" class="milestone" id="w46_m3"></td><td><input type="checkbox" class="milestone" id="w46_m4"></td></tr>
+<tr><td>Week of Apr 13, 2026</td><td><input type="checkbox" class="milestone" id="w47_m1"></td><td><input type="checkbox" class="milestone" id="w47_m2"></td><td><input type="checkbox" class="milestone" id="w47_m3"></td><td><input type="checkbox" class="milestone" id="w47_m4"></td></tr>
+<tr><td>Week of Apr 20, 2026</td><td><input type="checkbox" class="milestone" id="w48_m1"></td><td><input type="checkbox" class="milestone" id="w48_m2"></td><td><input type="checkbox" class="milestone" id="w48_m3"></td><td><input type="checkbox" class="milestone" id="w48_m4"></td></tr>
+<tr><td>Week of Apr 27, 2026</td><td><input type="checkbox" class="milestone" id="w49_m1"></td><td><input type="checkbox" class="milestone" id="w49_m2"></td><td><input type="checkbox" class="milestone" id="w49_m3"></td><td><input type="checkbox" class="milestone" id="w49_m4"></td></tr>
+<tr><td>Week of May 04, 2026</td><td><input type="checkbox" class="milestone" id="w50_m1"></td><td><input type="checkbox" class="milestone" id="w50_m2"></td><td><input type="checkbox" class="milestone" id="w50_m3"></td><td><input type="checkbox" class="milestone" id="w50_m4"></td></tr>
+<tr><td>Week of May 11, 2026</td><td><input type="checkbox" class="milestone" id="w51_m1"></td><td><input type="checkbox" class="milestone" id="w51_m2"></td><td><input type="checkbox" class="milestone" id="w51_m3"></td><td><input type="checkbox" class="milestone" id="w51_m4"></td></tr>
+<tr><td>Week of May 18, 2026</td><td><input type="checkbox" class="milestone" id="w52_m1"></td><td><input type="checkbox" class="milestone" id="w52_m2"></td><td><input type="checkbox" class="milestone" id="w52_m3"></td><td><input type="checkbox" class="milestone" id="w52_m4"></td></tr>
+
+    </table>
+  </section>
+
+  
+  <section>
+    <h2>📅 Weekly Dual Meditation Schedule</h2>
+    <iframe src="Interactive_Meditation_Timetable_Metta_20min.html"></iframe>
+  
+  </section>
+
+  <section>
+    <h2>📝 Weekly Reflections & Journaling Prompts</h2>
+    <p><strong>Instructions:</strong> Use the fields below to briefly journal after your sessions. Your entries will be saved in your browser.</p>
+    <table>
+      <tr><th>Week</th><th>Reflection Prompt</th><th>Your Entry</th></tr>
+  </script>
+
+<script>
+  const milestoneBoxes = document.querySelectorAll('input[type=checkbox][id^="milestone_"]');
+  milestoneBoxes.forEach(cb => {
+    const key = cb.id;
+    cb.checked = localStorage.getItem(key) === "true";
+    cb.addEventListener("change", () => {
+      localStorage.setItem(key, cb.checked);
+    });
+  });
+</script>
+
+<script>
+  // Track milestone progress
+  const checkboxes = document.querySelectorAll('.milestone');
+  const progressBar = document.getElementById('progressBar');
+
+  function updateProgress() {
+    let checked = 0;
+    checkboxes.forEach(cb => {
+      if (cb.checked) checked++;
+    });
+    let percent = Math.round((checked / checkboxes.length) * 100);
+    progressBar.style.width = percent + '%';
+    progressBar.textContent = percent + '%';
+  }
+
+  checkboxes.forEach(cb => {
+    const id = cb.id;
+    cb.checked = localStorage.getItem(id) === "true";
+    cb.addEventListener('change', () => {
+      localStorage.setItem(id, cb.checked);
+      updateProgress();
+    });
+  });
+
+  // Stream entry milestone boxes
+  const milestoneBoxes = document.querySelectorAll('input[type=checkbox][id^="milestone_"]');
+  milestoneBoxes.forEach(cb => {
+    const key = cb.id;
+    cb.checked = localStorage.getItem(key) === "true";
+    cb.addEventListener("change", () => {
+      localStorage.setItem(key, cb.checked);
+    });
+  });
+
+  // Journal persistence
+  const textareas = document.querySelectorAll("textarea");
+  textareas.forEach(t => {
+    const key = t.id;
+    t.value = localStorage.getItem(key) || "";
+    t.addEventListener("input", () => {
+      localStorage.setItem(key, t.value);
+    });
+  });
+
+  updateProgress();
+</script>
+</body>
+
+</html>
+
+      <tr>
+        <td>Week of May 26, 2025</td>
+        <td>What emotions came up this week during practice?</td>
+        <td><textarea id="journal_1" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of Jul 14, 2025</td>
+        <td>What was the hardest part of staying present?</td>
+        <td><textarea id="journal_2" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of Sep 01, 2025</td>
+        <td>How did my body feel before and after practice?</td>
+        <td><textarea id="journal_3" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of Oct 20, 2025</td>
+        <td>Where did my mind wander most this week?</td>
+        <td><textarea id="journal_4" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of Dec 08, 2025</td>
+        <td>How has my resistance changed?</td>
+        <td><textarea id="journal_5" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of Jan 26, 2026</td>
+        <td>What insights or patterns am I noticing?</td>
+        <td><textarea id="journal_6" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of Mar 16, 2026</td>
+        <td>How connected do I feel to my intention?</td>
+        <td><textarea id="journal_7" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+      <tr>
+        <td>Week of May 04, 2026</td>
+        <td>What would support me most in the coming week?</td>
+        <td><textarea id="journal_8" rows="2" style="width:95%;"></textarea></td>
+      </tr>
+    
+    </table>
+  </section>
+
+  <section>
+    <h2>🔔 Gentle Reminders</h2>
+    <ul>
+      <li>✨ Progress is integration, not speed.</li>
+      <li>💗 If you miss a sit, return gently. No shame.</li>
+      <li>🕯️ Short sits count. Showing up counts.</li>
+      <li>🌿 Rest is part of the path.</li>
+      <li>📿 Trust the process, not the perfection.</li>
+    </ul>
+  </section>
+
+  <script>
+    // Save journal entries locally
+    const textareas = document.querySelectorAll("textarea");
+    textareas.forEach(t => {
+      const key = t.id;
+      t.value = localStorage.getItem(key) || "";
+      t.addEventListener("input", () => {
+        localStorage.setItem(key, t.value);
+      });
+    });
+  </script>
